@@ -1,0 +1,61 @@
+.card {
+  width: 330px;
+  margin: auto;
+  border: 1px solid gray;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(230,226,218,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(230,226,218,1);
+  box-shadow: 10px 10px 5px 0px rgba(230,226,218,1);
+  background: repeating-linear-gradient(
+	45deg,
+	transparent,
+	transparent 10px,
+	rgb(205, 223, 234) 10px,
+	rgb(205, 223, 234) 20px
+  );
+}
+
+h3 {
+  font-family: arial;
+  color: rgb(112, 105, 104);
+  padding-left: 15px;
+}
+
+.italic { 
+  font-style: italic;
+}
+
+.image {
+  display: block;
+  margin: 15px;
+  width: 300px;
+}
+
+.description {
+  background-color: lightblue;
+  border: 1px solid gray;
+  margin: 15px;
+  padding: 10px;
+}
+
+.borderRadius {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.blueFont {
+  color: rgb(63, 119, 180);
+  font-size: 15px;
+}
+
+.character-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 13px;
+  color: rgb(105, 132, 106);
+}
+
+.character-item {
+font-weight: bold;
+font-size: 15px;
+}
